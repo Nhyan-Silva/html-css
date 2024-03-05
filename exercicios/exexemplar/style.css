@@ -1,0 +1,91 @@
+@charset "utf-8";   
+
+body
+
+h1#secudario{
+color: blueviolet;
+text-decoration:underline overline;
+
+}
+p.exemplo{
+color: aqua;
+background-color: black;
+
+}
+span.exemplo{
+
+color:aqua;
+background-color: black;
+}
+div{
+display:inline-block;
+    background-color: aliceblue;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+height:200px;
+width:200px;
+border:1px solid black ;
+}
+
+div#d1{color:black;}
+
+
+div#d2{ color: black;
+}
+div#d3{
+    color: black;}
+
+div#d1:hover {
+
+    background-color: red;
+}
+div#d2:hover{
+background-color: green;
+}
+
+div#d3:hover{
+
+background-color: blue;
+}
+
+p#p2:hover{color: aqua;}
+
+ul>p{
+display:none ;
+color: black;
+}
+ul:hover>p{display:block;}
+  
+
+ul>p:hover{color: deeppink;}
+
+ul{color:mediumpurple;}
+
+p > a{
+
+ color:blueviolet;   
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+a:hover{
+color: black;
+text-decoration: underline;
+}
+
+a:visited{color:dimgray;}
+
+a:active{color: aquamarine;}
+
+a::before{
+content:"{✦}  " ;
+
+}
+
+a::after{
+content:"  {✧}";
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
